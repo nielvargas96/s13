@@ -1,0 +1,283 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+* {
+  font-family: 'Montserrat', sans-serif
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+.navbar {
+  /* position: fixed; */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: transparent;
+  width: 100%;
+}
+
+.navbar.active:before {
+  content: '';
+  background-color: #fff;
+  height: 100%;
+  left: -9999px;
+  width: 9999px;
+  position: absolute;
+  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
+}
+
+.navbar.active:after {
+  content: '';
+  background-color: #fff;
+  height: 100%;
+  right: -9999px;
+  width: 9999px;
+  position: absolute;
+  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
+}
+
+.navbar.active {
+  background-color: #fff;
+  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
+}
+
+.text-black {
+  color: #2C2C2C !important;
+  font-weight: 600;
+}
+
+h1 {
+  color: #111;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.landing {
+  background: url('images/mybg.png') no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.landing .wrapper {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.landing p {
+  font-size: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.btn-custom {
+  background-color: #2C2C2C;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  color: #fff;
+}
+
+
+@-moz-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+
+.bounce {
+  animation: bounce 1.5s infinite;
+}
+
+
+.about,
+.gallery {
+  scroll-margin-top: 90px;
+  padding: 6rem 0;
+}
+
+.contact {
+  padding: 0 0 6rem;
+}
+
+
+.about {
+  height: 90vh;
+  background: url(images/bg3.png) no-repeat;
+  background-size: cover;
+  background-position: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
+.about .bi {
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  text-decoration: none !important;
+  color: #2C2C2C;
+}
+
+
+.landing .arrow:hover {
+  color: #2C2C2C;
+}
+
+
+.bi {
+  font-size: 3rem;
+}
+
+
+.about p {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  .landing p {
+    font-size: 2rem;
+  }
+
+  .landing .wrapper {
+    justify-content: center;
+  }
+
+
+  .bi {
+    font-size: 4rem;
+  }
+}
+
+
+h1 span {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .landing .wrapper div {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-collapse {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    margin: 0 -2rem;
+    box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.24);
+  }
+}
