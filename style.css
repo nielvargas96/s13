@@ -17,6 +17,11 @@ body {
   max-width: 90px;
 }
 
+.green {
+  display: inline-block;
+  color: #0caea1;
+}
+
 .navbar {
   /* position: fixed; */
   max-width: 1200px;
@@ -32,7 +37,6 @@ body {
   left: -9999px;
   width: 9999px;
   position: absolute;
-  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
 }
 
 .navbar.active:after {
@@ -42,12 +46,10 @@ body {
   right: -9999px;
   width: 9999px;
   position: absolute;
-  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
 }
 
 .navbar.active {
   background-color: #fff;
-  box-shadow: -1px 29px 10px -21px rgba(0, 0, 0, 0.15);
 }
 
 .text-black {
@@ -180,6 +182,7 @@ h1 {
 }
 
 .contact {
+  height: 80vh;
   padding: 0 0 6rem;
 }
 
