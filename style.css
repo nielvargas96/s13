@@ -24,7 +24,7 @@ body {
 
 .navbar {
   /* position: fixed; */
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: transparent;
   width: 100%;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -188,7 +188,7 @@ h1 {
 
 
 .about {
-  height: 90vh;
+  height: 95vh;
   background: url(images/bg3.png) no-repeat;
   background-size: cover;
   background-position: 0;
@@ -203,6 +203,14 @@ h1 {
 }
 
 .about .bi {
+  color: #fff;
+}
+
+.arrow span {
+  font-size: 12px;
+}
+
+.about span {
   color: #fff;
 }
 
@@ -223,9 +231,16 @@ h2 {
   color: #2C2C2C;
 }
 
+.form-control {
+  border: 2px solid #1b1b1b;
+}
 
 .bi {
   font-size: 3rem;
+}
+
+.form-label-outside {
+  font-weight: 700;
 }
 
 

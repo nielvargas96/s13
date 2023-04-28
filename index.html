@@ -40,7 +40,7 @@
 
 	<section class="landing">
 		<div class="wrapper px-4 pt-10">
-			<div class="" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
+			<div data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
 				<h1>Welcome <span>to my website<span class="green">.</span></span></h1>
 				<p data-aos-delay="2000">I am a student from Zuitt Bootcamp. I make this website portfolio for my Capstone 1 Project.
 					Thank you for visiting my site. To learn more about me please click the arrow button below.
@@ -61,7 +61,7 @@
 	<main>
 
 		<section id="about" class="about px-4 text-white">
-			<div class="container-fluid text-center" data-aos="fade-up">
+			<div class="container-fluid text-center" data-aos="fade-up" data-aos-delay="300">
 				<h2 class="text-center display-7"> About me</h2>
 
 				<p>Hi! Im Niel I am enrolled in Zuitt Bootcamp. </p>
@@ -72,12 +72,13 @@
 			<a class="arrow" href="#gallery">
 				<div class="encircle bounce animated text-center">
 					<i class="arrow bi bi-chevron-double-down mb-3"></i>
+					<span>CLICK HERE</span>
 				</div>
 			</a>
 		</section>
 
 		<section class="gallery px-4" id="gallery">
-			<h2 class="text-center display-7"> Gallery</h2>
+			<h2 class="text-center display-7" data-aos="fade-up" data-aos-delay="300"> Gallery</h2>
 			<div class="container-fluid">
 				<div class="px-lg-5">
 
@@ -85,42 +86,42 @@
 
 					<div class="row">
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 1.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 1.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 2.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 2.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 3.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 3.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 4.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 4.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 5.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 5.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 6.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 6.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 7.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 7.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
 						<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-							<div class="bg-white rounded shadow-sm" data-aos="zoom-in"><img src="images/image 8.png" alt="" class="img-fluid card-img-top">
+							<div class="bg-white rounded shadow-sm" data-aos="zoom-in" data-aos-delay="300"><img src="images/image 8.png" alt="" class="img-fluid card-img-top">
 							</div>
 						</div>
 
@@ -133,21 +134,24 @@
 			<div class="containe-fluid">
 				<div class="row main-row justify-content-center pt-5">
 					<div class="cold-3 col-md-6 col-lg-6 form-wrapper">
-						<h2 class="text-center display-7">
+						<h2 class="text-center display-7" data-aos="fade-up" data-aos-delay="400">
 							Contact me
 						</h2>
 
-						<div class="form">
-							<div data-form-alert="" hidden="">Thanks for filling out the form!</div>
-							<form class="mbr-form"><input type="hidden" name="email">
+						<div class="form" data-aos="fade-up" data-aos-delay="400">
+							<form class="mbr-form">
+								<div class="input-wrap pb-3">
+									<label class="form-label-outside" for="name">Fullname</label>
+									<input type="text" class="form-control" name="name" required="" id="name">
+								</div>
 
-								<div class="input-wrap pb-3" data-for="email">
-									<label class="form-label-outside mbr-lighter" for="email">E-mail</label>
-									<input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email">
+								<div class="input-wrap pb-3">
+									<label class="form-label-outside" for="email">E-mail</label>
+									<input type="email" class="form-control" name="email" required="" id="email">
 								</div>
 
 								<div class="form-group" data-for="message">
-									<label class="form-label-outside mbr-lighter" for="message">Message</label>
+									<label class="form-label-outside" for="message">Message</label>
 									<textarea type="text" class="form-control" name="message" rows="4" id="message"></textarea>
 								</div>
 
