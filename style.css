@@ -243,7 +243,6 @@ h2 {
   font-weight: 700;
 }
 
-
 .about p {
   font-size: 1.2rem;
 }
@@ -255,6 +254,10 @@ h2 {
 
   .about p {
     font-size: 1.5rem;
+  }
+
+  .c-wrapper {
+    max-width: 600px;
   }
 }
 
@@ -289,7 +292,7 @@ h1 span {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 991px) {
   .navbar-collapse {
     text-align: center;
     background: rgb(255, 255, 255);
