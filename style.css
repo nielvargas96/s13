@@ -169,16 +169,23 @@ h1 {
   }
 }
 
+.bi-telegram {
+  font-size: 2.5rem !important;
+}
 
 .bounce {
   animation: bounce 1.5s infinite;
 }
 
 
-.about,
-.gallery {
+.about {
   scroll-margin-top: 90px;
   padding: 6rem 0;
+}
+
+.gallery {
+  padding: 5rem 0 6rem;
+  scroll-margin-top: 5px;
 }
 
 .contact {
@@ -189,7 +196,7 @@ h1 {
 
 .about {
   height: 95vh;
-  background: url(images/bg3.png) no-repeat;
+  background: url('images/bg5.png') no-repeat;
   background-size: cover;
   background-position: 0;
   display: flex;
@@ -245,6 +252,11 @@ h2 {
 
 .about p {
   font-size: 1.2rem;
+}
+
+.gallery .container-fluid {
+  max-width: 1600px;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) {
