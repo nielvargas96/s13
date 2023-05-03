@@ -196,8 +196,7 @@ h1 {
 
 footer {
   margin-top: 5rem;
-  background-color: red;
-  background-color: rgba(0, 0, 0, 0.030);
+  background-color: #f7f7f7;
 }
 
 .about {
@@ -220,7 +219,7 @@ footer {
 }
 
 .copyright {
-  background-color: rgba(0, 0, 0, 0.025) !important;
+  background: #eaeaea;
 }
 
 .arrow span {
